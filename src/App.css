@@ -1,42 +1,110 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+header {
+  max-width: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-bottom: 3px solid var(--clr-rose);
+}
+
+.header__title {
+  font-size: var(--size-5xl);
+  font-weight: 900;
   text-align: center;
+  padding: 1em 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.heart {
+  color: var(--clr-rose);
+  text-shadow: 1px 1px 1px var(--clr-light), -1px 1px 1px var(--clr-light), -1px -1px 0 var(--clr-light),
+    1px -1px 0 var(--clr-light);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.kondi-heart {
+  padding: 1em;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.password__input {
+  border: 3px solid var(--clr-rose);
+  border-radius: 25px;
+  padding: .5em;
+  text-align: center;
+  font-size: var(--size-lg);
+  background: var(--clr-light);
+  color: var(--clr-rose);
+}
+
+.btn {
+  padding: .75em 1.5em;
+  margin: 1em;
+  font-size: var(--size-xl);
+  font-weight: 600;
+  border-radius: 100px;
+  transition: all .6s ease-in-out;
+  background: var(--clr-gradient);
+}
+
+.btn:hover {
+  background: var(--clr-gradient-reverse);
+}
+
+/* xs */
+@media (min-width: 475px) {
+  header {
+    max-width: 25em;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header__title {
+    font-size: var(--size-7xl);
+    padding: 1em;
+  }
+
+  .kondi-heart {
+    max-width: 20em;
+  }
+
+  .password {
+    flex-direction: row;
+  }
+
+  .password__input {
+    font-size: var(--size-xl);
+  }
+
+  .btn {
+    font-size: var(--size-xl);
+    width: 10em;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+/* lg */
+@media (min-width: 1024px) {
+  header {
+    max-width: 30em;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .header__title {
+    font-size: var(--size-9xl);
+  }
 
-.read-the-docs {
-  color: #888;
+  .kondi-heart {
+    max-width: 25em;
+  }
+
+  .password__input {
+    font-size: var(--size-2xl);
+  }
+
+  .btn {
+    font-size: var(--size-2xl);
+  }
 }
