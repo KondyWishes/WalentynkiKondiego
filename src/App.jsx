@@ -1,5 +1,6 @@
 import { useState } from "react";
 import OzziLila from "./components/OzziLila/OzziLila";
+import Karzelek from "./components/Karzelek/Karzelek";
 import "./App.css";
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
         {password === "ozzilila" ? (
           <OzziLila />
         ) : password === "karzelek" ? (
-          <section></section>
+          <Karzelek />
         ) : (
           ""
         )}
