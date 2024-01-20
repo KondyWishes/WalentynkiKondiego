@@ -62,6 +62,11 @@ body {
   color: var(--clr-light);
 }
 
+section {
+  margin: 5em;
+  padding: 1em 0;
+}
+
 img,
 picture,
 video,
@@ -82,8 +87,10 @@ button {
   color: inherit;
 }
 
-a {
+strong {
   color: var(--clr-rose);
+  text-shadow: 1px 1px 1px var(--clr-light), -1px 1px 1px var(--clr-light), -1px -1px 0 var(--clr-light),
+    1px -1px 0 var(--clr-light);
 }
 
 /* Scrollbar */

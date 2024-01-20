@@ -1,8 +1,14 @@
 import { useState } from "react";
+import OzziLila from "./components/OzziLila/OzziLila";
 import "./App.css";
 
 function App() {
-  const [password, setPassword] = useState(null);
+  const [password, setPassword] = useState("");
+
+  const handlePasswordInput = () => {
+    const passwordInput = document.querySelector(".password__input");
+    setPassword(passwordInput.value.toLowerCase());
+  };
 
   return (
     <>
@@ -21,9 +27,21 @@ function App() {
             type="text"
             placeholder="Tu wpisz hasło..."
           />
-          <button className="btn">No kliknij</button>
+          <button className="btn" onClick={handlePasswordInput}>
+            No kliknij
+          </button>
         </div>
       </header>
+
+      <main>
+        {password === "ozzilila" ? (
+          <OzziLila />
+        ) : password === "karzelek" ? (
+          <section></section>
+        ) : (
+          ""
+        )}
+      </main>
     </>
   );
 }
