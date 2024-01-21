@@ -24,10 +24,10 @@ const Karzelek = () => {
       <p className="karzelek__description">
         Wiem, że nic z tego nie będzie. Jeśli była na to szansa to przepadła. Ja
         się muszę z tym pogodzić i tyle. Przede wszystkim zależy mi na Twoim
-        szczęściu, więc jeśli możesz być szczęśliwa z kimś innym, to niech tak
-        będzie.
+        szczęściu, a z tego co widzę na discordzie to chyba jesteś szczęśliwa,
+        więc jeśli możesz być szczęśliwa z kimś innym, to niech tak będzie.
       </p>
-      <hr className="karzelek__underline" />
+      <hr className="underline" />
       <img
         className="karzelek__img"
         src="./Karzelek/karzelek-heart.png"

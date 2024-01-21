@@ -57,6 +57,13 @@ header {
   background: var(--clr-gradient-reverse);
 }
 
+.underline {
+  border: 3px solid var(--clr-light);
+  border-radius: 10px;
+  width: 80%;
+  margin: 1em;
+}
+
 /* xs */
 @media (min-width: 475px) {
   header {

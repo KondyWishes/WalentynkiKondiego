@@ -60,7 +60,7 @@ const OzziLila = () => {
             loading="lazy"
           />
         </div>
-        <hr className="ozzilila_underline" />
+        <hr className="underline" />
 
         <div className="ozzilila__wishes">
           <p className="ozzilila__description">
