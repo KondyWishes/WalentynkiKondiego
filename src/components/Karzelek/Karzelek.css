@@ -29,15 +29,27 @@
     padding: .5em;
     font-size: var(--size-lg);
     text-align: justify;
-    border-radius: 20px;
+    border-radius: 25px;
     background: var(--clr-gradient-reverse);
     margin: 1em 0;
     padding: 1em;
     border-bottom: 3px solid var(--clr-light);
 }
 
-.karzelek__description:last-child {
+.iloveyou {
     text-align: center;
+}
+
+.karzelek__video {
+    max-width: 15em;
+    height: 15em;
+    margin: 1em 0;
+    border: 3px solid var(--clr-light);
+    border-radius: 25px;
+}
+
+.karzelek__footer {
+    margin-top: 5em;
 }
 
 /* md */
