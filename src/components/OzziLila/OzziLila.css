@@ -18,13 +18,20 @@
     border-radius: 20px;
     background: var(--clr-gradient-reverse);
     margin: 1em 0;
-    padding: .5em;
+}
+
+.ozzilila__rhyme .ozzilila__description {
+    background: none;
+    border: none;
 }
 
 .ozzilila__description {
-    padding: .5em;
+    padding: 1em;
     font-size: var(--size-lg);
     text-align: center;
+    border-bottom: 3px solid var(--clr-light);
+    border-radius: 20px;
+    background: var(--clr-gradient-reverse);
 }
 
 .ozzilila__main {
