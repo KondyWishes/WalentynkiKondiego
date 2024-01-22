@@ -41,7 +41,7 @@ const Karzelek = () => {
       </p>
 
       <iframe
-        className="karzelek__video"
+        className="video"
         src="https://www.youtube.com/embed/-INk_39E9dU?si=ulwt1OG8eKLCH1tm"
         title="YouTube video player"
         frameborder="0"

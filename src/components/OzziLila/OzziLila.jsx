@@ -104,6 +104,14 @@ const OzziLila = () => {
             alt="Kochacie się <3"
             loading="lazy"
           />
+          <iframe
+            className="video"
+            src="https://www.youtube.com/embed/VFHoBRMO-jc?si=1rDe_aT1C4Wiz4nC"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </section>
