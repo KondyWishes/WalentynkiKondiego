@@ -27,6 +27,12 @@ const Karzelek = () => {
         szczęściu, a z tego co widzę na discordzie to chyba jesteś szczęśliwa,
         więc jeśli możesz być szczęśliwa z kimś innym, to niech tak będzie.
       </p>
+      <p className="karzelek__description">
+        Chcę Ci jeszcze podziękować, za to, że byłaś i próbowałaś mi pomóc.
+        Przepraszam, że nigdy nie słuchałem. Przepraszam, że często Ci
+        niepotrzebnie głowę zawracałem. Naprawdę chcę Cię za wszystko
+        przeprosić.
+      </p>
       <hr className="underline" />
       <img
         className="karzelek__img"
@@ -37,7 +43,7 @@ const Karzelek = () => {
       <hr className="underline" />
       <p className="karzelek__description iloveyou">
         Nagrałem jeszcze filmik, kolejny zresztą.
-        <br /> <strong>Kocham Cię Martyna.</strong>
+        <br /> <strong>Naprawdę Cię Kocham Martyna.</strong>
       </p>
 
       <iframe
@@ -53,7 +59,12 @@ const Karzelek = () => {
         Tak jak mówiłem, dla mnie najważniejsze jest twoje szczęście, więc jeśli
         chcesz, żebym dał Ci spokój, to powiedz mi to. Jeśli nie chcesz mieć ze
         mną kontaktu - powiedz mi to. Ale mam nadzieję, że będziesz kiedyś
-        dobrze wspominać nasz wspólny czas.
+        chociaż dobrze wspominać nasz wspólny czas.
+      </p>
+      <p className="karzelek__description karzelek__footer">
+        Chciałem z tym poczekać do Walentynek i dać link do strony razem z
+        hasłem na pendrive, a potem przyjechać do Ciebie i dać Ci to osobiście,
+        ale to już bez różnicy.
       </p>
     </section>
   );

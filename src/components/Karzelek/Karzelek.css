@@ -40,10 +40,6 @@
     text-align: center;
 }
 
-.karzelek__footer {
-    margin-top: 5em;
-}
-
 /* md */
 @media (min-width: 768px) {
     .karzelek {
